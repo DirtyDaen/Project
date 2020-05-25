@@ -35,7 +35,7 @@ public class ModelLoader {
                 AIVector3D texture = mesh.mTextureCoords(0).get(i);
                 meshTextureCoord.setX(texture.x());
                 meshTextureCoord.setY(texture.y());
-            }
+            }//
 
             vertexList[i] = new Vertex(meshVertex, meshNormal, meshTextureCoord);
         }
